@@ -1,1 +1,132 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Edivaldo Ramos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #1e1e1e;
+            color: #d3d3d3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 700px;
+            background-color: #2c2c2c;
+            border-radius: 8px;
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+            padding: 30px;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            border: 3px solid #61dafb;
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: #61dafb;
+            margin-bottom: 10px;
+        }
+
+        .highlight {
+            color: #61dafb;
+            font-weight: 500;
+        }
+
+        .icons {
+            margin-top: 20px;
+            font-size: 2rem;
+            color: #61dafb;
+        }
+
+        .icons i {
+            margin: 0 8px;
+            transition: color 0.3s;
+        }
+
+        .icons i:hover {
+            color: #3792d3;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: #aaa;
+            text-align: center;
+        }
+
+        a {
+            color: #61dafb;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #3792d3;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <img src="https://avatars.githubusercontent.com/u/15630516?v=4" alt="Profile Photo" class="profile-img">
+    <h1>Backend Developer</h1>
+
+    <p>
+        I'm a <span class="highlight">Computer Science</span> graduate (2017), from Brazil, currently residing here, and a backend developer with over <span class="highlight">8 years of experience</span>, specializing in <span class="highlight">Java</span> and <span class="highlight">Go</span>.
+    </p>
+
+    <p>
+        Focused on building <span class="highlight">scalable microservices</span>, I work extensively with <span class="highlight">REST APIs, gRPC</span>, and event-driven architectures. My expertise includes crafting cloud-ready solutions with <span class="highlight">Google Cloud Platform (GCP)</span>.
+    </p>
+
+    <p>
+        Strong in both <span class="highlight">SQL</span> and <span class="highlight">NoSQL</span> databases, <span class="highlight">Spring</span> services with <span class="highlight">Java 8+</span>, and in <span class="highlight">Go</span> frameworks such as <span class="highlight">Gin</span> and <span class="highlight">Fiber</span>.
+    </p>
+
+    <p>
+        Additionally, I'm skilled in <span class="highlight">automated testing, observability</span>, and <span class="highlight">profiling</span> for optimized performance. Familiar with <span class="highlight">Docker</span> and have experience with <span class="highlight">Kubernetes</span>.
+    </p>
+
+    <div class="icons">
+        <i class="fab fa-java" title="Java"></i>
+        <i class="fas fa-leaf" title="Spring"></i>
+        <i class="fab fa-golang" title="Go"></i>
+        <i class="fas fa-database" title="SQL/NoSQL"></i>
+        <i class="fas fa-cloud" title="Cloud"></i>
+        <i class="fab fa-docker" title="Docker"></i>
+        <i class="fab fa-kubernetes" title="Kubernetes"></i>
+    </div>
+
+    <div class="footer">
+        📫 Let's connect on
+        <a href="https://www.linkedin.com/in/edivaldoramos/" target="_blank">
+            <i class="fab fa-linkedin"></i> LinkedIn
+        </a> |
+        <a href="https://github.com/edivaldoramos" target="_blank">
+            <i class="fab fa-github"></i> GitHub
+        </a>
+    </div>
+
+</div>
+</body>
+</html>
